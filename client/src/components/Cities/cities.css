@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputStyle {
+  width: 80%;
+  padding: 5px 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+.containerCities {
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerCity {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.containerCities img {
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.containerCities span {
+  color: white;
+  font-weight: bold;
+  font-size: 78px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 4px 3px 0 #333333;
+}
+
+@media (max-width: 600px) {
+  .containerCities span {
+    font-size: 38px;
+  }
+}

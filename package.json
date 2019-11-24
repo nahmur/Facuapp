@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianmartinez92/mernapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianmartinez92/mernapp/issues"
+  },
+  "homepage": "https://github.com/damianmartinez92/mernapp#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.10",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-router-redux": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

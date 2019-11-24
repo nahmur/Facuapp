@@ -1,0 +1,15 @@
+.containerPerfectTrip{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerPerfectTrip h3{
+    width: 80%;
+    text-align: center;
+}
+
+.imgFlecha{
+    width: 25%;
+}

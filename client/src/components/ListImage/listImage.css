@@ -1,0 +1,40 @@
+.containerListImage {
+  width: 100%;
+  user-select: none;
+}
+
+.listaDeImagenes {
+  max-width: 1080px;
+  margin: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listaDeImagenes img {
+  width: 45%;
+  margin: 10px auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.containerButtonsCarousel {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.borderButton {
+  background: grey;
+  border: 2px solid grey;
+  border-radius: 100%;
+  display: flex;
+  align-self: center;
+  margin: 20px;
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(102, 102, 102, 1);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(102, 102, 102, 1);
+  box-shadow: 5px 5px 15px 0px rgba(102, 102, 102, 1);
+}
+
+@media (max-width: 600px) {
+  .listaDeImagenes img {
+    height: 150px;
+  } 
+}

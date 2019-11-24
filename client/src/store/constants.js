@@ -1,0 +1,2 @@
+export const FETCH_ALL_CITIES = "FETCH_ALL_CITIES";
+export const FECTH_CITY = "FECTH_CITY";
